@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Anunturi Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Anunturi Clubul Sportiv Universitatea Craiova</h1>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="sectii.html">Secții</a></li>
+                <li><a href="echipe.html">Echipe</a></li>
+                <li><a href="anunturi.html">Anunțuri</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Anunțuri</h2>
+        <?php
+        include 'database.php'; // Conexiunea la baza de date
+
+        // Interogare pentru a selecta toate anunțurile și a le afișa
+        $sql = "SELECT titlu, descriere FROM anunturi ORDER BY data_publicare DESC";
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+            // Afiseaza fiecare anunt
+            while($row = $result->fetch_assoc()) {
+                echo "<div class='anunt'>";
+                echo "<h3>" . $row["titlu"] . "</h3>";
+                echo "<p>" . $row["descriere"] . "</p>";
+                echo "</div>";
+            }
+        } else {
+            echo "Nu există anunțuri.";
+        }
+        $conn->close();
+        ?>
+    </main>
+    <footer>
+        <p>&copy; 2024 Clubul Sportiv Universitatea Craiova. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,240 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    min-height: 80vh;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.8;
+    position: relative;
+}
+
+/* img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+} */
+
+.football1 {
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.basket1 {
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.badminton1 {
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.logo1 {
+    width: 25%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.football2galerie {
+    width: 25%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.basket2galerie {
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.badminton2galerie {
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    color: #565552;
+    text-decoration: underline;
+}
+
+.galerie-imagini {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loginIndex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logoutButton {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.anunt {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.anunt-header {
+    margin-bottom: 10px;
+}
+
+.anunt h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.anunt h4 {
+    margin-top: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.anunt p {
+    font-size: larger;
+}
+
+.echipaphp {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.echipa-header {
+    margin-bottom: 10px;
+}
+
+.echipaphp h3 {
+    margin-top: 0;
+    font-size: large;
+}
+
+.echipaphp h4 {
+    margin-top: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.echipaphp p {
+    font-size: larger;
+}
+
+.echipa {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.echipadiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: larger;
+}
+
+.sectiune-fotbal {
+    width: 60%;
+}
+
+.sectiune-basket {
+    width: 60%;
+}
+
+.sectiune-badminton {
+    width: 60%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+}

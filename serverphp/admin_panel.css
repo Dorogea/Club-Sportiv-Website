@@ -1,0 +1,112 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.butoane {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+a {
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    /* display: flex; */
+    justify-content: flex-start;
+    font-size: x-large;
+}
+
+.panel {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 60px;
+}
+
+p.echipe {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+p.anunt {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.loginpanel {
+    display: flex;
+    margin-right: 60px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.loginpanel button {
+    margin-top: 40px;
+    width: 5%;
+    margin-left: 50px;
+}
+
+.username {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.password {
+    margin-left: 5px;
+}
+
+.setari {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adauga_anunt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+input#titlu {
+    margin-top: 5px;
+    width: 25%;
+    height: 25%;
+    font-size: larger;
+}
+
+textarea#descriere {
+    margin-top: 5px;
+    width: 25%;
+    height: 25%;
+    font-size: larger;
+}
